@@ -14,4 +14,3 @@ def get_friends(user_id):
 	# ваш код здесь
 	return friends_list.json()['response']
 print(get_friends(os.getenv("user_id")))
-# запрашиваем список друзей пользователя с ID 531301803
